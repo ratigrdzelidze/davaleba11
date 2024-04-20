@@ -1,0 +1,62 @@
+.navbar ul{
+    background-color: #7a4d11;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+    animation-name: ul;
+    animation-duration: 4s;
+    
+    
+
+}
+
+
+.navbar a{
+    color: #ebc933;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    margin-left: 200px;
+    font-family: roboto;
+    font-weight: 500px;
+    font-size: 20px;
+
+}
+@keyframes ul{
+    0% {background-color: black;}
+    25% {background-color: blue;}
+    50% {background-color: green;}
+    100% {background-color: red;}
+}
+    
+   
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+    
+
+    
+    
+}
+.navbar li{
+    float: left;
+}
+
+.p1{
+   font-size: 70px;
+   text-align: center;
+   color:;
+}
+.p2{
+    text-align: center;
+    margin-top: -50px;
+    color: #ebc933;
+}
+
+
+i{
+   margin-left: 100px;
+   margin-top: 40px;
+    
+}
